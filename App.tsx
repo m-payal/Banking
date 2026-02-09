@@ -8,6 +8,7 @@ import TechnicalView from './views/TechnicalView';
 import ResultsView from './views/ResultsView';
 import ErrorStatesView from './views/ErrorStatesView';
 import LiveDemoView from './views/LiveDemoView';
+import { Analytics } from "@vercel/analytics/next"
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
